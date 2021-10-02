@@ -23,7 +23,7 @@ func createOptions(r *http.Request) chrome.Options {
 	url := createRenderURL(template, r.URL.RawQuery, utils.Config.Server.Port)
 	data := struct {
 		Width   int    `json:"width,omitempty"`
-		Height  int    `json:"weight,omitempty"`
+		Height  int    `json:"height,omitempty"`
 		Quality int    `json:"quality,omitempty"`
 		Format  string `json:"format,omitempty"`
 	}{
