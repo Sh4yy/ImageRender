@@ -1,0 +1,12 @@
+debug: false
+server:
+  host: 0.0.0.0
+  port: 8080
+render:
+  width: 720
+  height: 360
+  quality: 90
+  format: jpeg
+directory:
+  static: "/static/"
+  templates: "templates/"
